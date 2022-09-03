@@ -1,0 +1,401 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Css de "index.html" */
+a{
+    color: white;
+    text-decoration: none;
+}
+.encabezado{
+    background-color: #24282B;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.encabezado__titulo{
+    color: white;
+}
+.encabezado__mensaje{
+    color: #1293D4;
+}
+.encabezado__menu{
+    width: 32rem;
+    list-style: none;
+}
+.encabezado__opciones{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.encabezado__opciones--eleccion{
+    color: #1293D4;
+}
+
+.presentacion {
+    background: url("../img/cabecera.jpg") no-repeat center center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 0;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+.presentacion__titulo{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.presentacion__parrafo{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.suscripcion{
+    background-color: #24282B;
+    display: flex;
+    justify-content: space-around;
+}
+.suscripcion__titulo{
+    color: white;
+}
+.suscripcion__formulario{
+    width: 23.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.formulario__email{
+    padding: 0.3rem 6rem 0.3rem 0.1rem;
+}
+.formulario__boton{
+    color: white;
+    background-color:orangered;
+    border: none;
+    padding: 0.4rem 1rem;
+}
+.aside--index{
+    display: flex;
+    justify-items: center;
+}
+.lenguages{
+    width: 50rem;
+    display: flex;
+    justify-content: space-around;
+}
+.html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.css{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.diseño{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lenguajes__imagen{
+    width: 4rem;
+    height: 4rem;
+}
+.copyright{
+    background-color: #1293D4;
+    display: flex;
+    justify-content: center;
+}
+.copyright__titulo{
+    color: white;
+}
+/* Css de "nosotros.html" */
+.encabezado--nosotros{
+    background-color: black;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.encabezado__titulo--nosotros{
+    color: white;
+}
+.encabezado__mensaje--nosotros{
+    color: blue;
+}
+.encabezado__menu--nosotros{
+    width: 32rem;
+}
+.encabezado__opciones--nosotros{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.linea--nosotros{
+    color: blue;
+    background-color: blue;
+    border: none;
+    margin: -1rem 0 0 0;
+    height: .5rem;
+}
+.suscripcion--nosotros{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+}
+.suscripcion__titulo--nosotros{
+    color: white;
+}
+.suscripcion__formulario--nosotros{
+    display: flex;
+    align-items: center;
+}
+.formulario__email--nosotros{
+    padding: 0.3rem 6rem 0.3rem 0.1rem;
+}
+.formulario__boton--nosotros{
+    color: white;
+    background-color:orangered;
+    border: none;
+    padding: 0.4rem 1rem;
+}
+.container{
+    display: flex;
+}
+.presentacion__container2{
+    display: flex;
+}
+.presentacion--nosotros{
+    margin: 0 0 0 2rem;
+    width: 50rem;
+}
+.presentacion__parrafo--nosotros{
+    padding: 1rem;
+    color: white;
+    background-color: black;
+}
+.presentacion__portatil{
+    width: 50rem;
+}
+.aside--nosotros{
+    margin: 1rem 0 0 2rem;
+    padding: 1rem;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    height: 12rem;
+    width: 25rem;
+}
+.aside__titulo--nosotros{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.aside__parrafo--nosotros{
+    color: white;
+}
+.copyright--nosotros{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.copyright__titulo--nosotros{
+    color: white;
+}
+/* Css de "servicios.html" */
+.encabezado--servicios{
+    background-color: black;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.encabezado__titulo--servicios{
+    color: white;
+}
+.encabezado__mensaje--servicios{
+    color: blue;
+}
+.encabezado__menu--servicios{
+    width: 32rem;
+}
+.encabezado__opciones--servicios{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.linea--servicios{
+    color: blue;
+    background-color: blue;
+    border: none;
+    margin: -1rem 0 0 0;
+    height: .5rem;
+}
+.suscripcion--servicios{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+}
+.suscripcion__titulo--servicios{
+    color: white;
+}
+.suscripcion__formulario--servicios{
+    width: 23.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.formulario__email--servicios{
+    padding: 0.3rem 6rem 0.3rem 0.1rem;
+}
+.formulario__boton--servicios{
+    color: white;
+    background-color:orangered;
+    border: none;
+    padding: 0.4rem 1rem;
+}
+.container--servicios{
+    margin: 0 0 0 4rem;
+    display: flex;
+}
+.servicios{
+    width:40rem;
+    display: flex;
+    flex-direction: column;
+}
+.container__diseño{
+    background-color: gray;
+    padding:  .5rem 2rem 1rem 2rem;
+    margin: .1rem;
+}
+.container__desarrollo{
+    background-color: gray;
+    padding:  .5rem 2rem 1rem 2rem;
+    margin: .1rem;
+}
+.container__hosting{
+    background-color: gray;
+    padding:  .5rem 2rem 1rem 2rem;
+    margin: .1rem;
+}
+.aside--servicios{
+    margin: 1rem 0 0 2rem;
+    padding: 1rem;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    height: 12rem;
+    width: 25rem;
+}
+.copyright--servicios{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.copyright__titulo--servicios{
+    color: white;
+}
+/* Css del "contacto.html" */
+.encabezado--contacto{
+    background-color: black;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.encabezado__titulo--contacto{
+    color: white;
+}
+.encabezado__mensaje--contacto{
+    color: blue;
+}
+.encabezado__menu--contacto{
+    width: 32rem;
+}
+.encabezado__opciones--contacto{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.linea--contacto{
+    color: blue;
+    background-color: blue;
+    border: none;
+    margin: -1rem 0 0 0;
+    height: .5rem;
+}
+.suscripcion--contacto{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+}
+.suscripcion__titulo--contacto{
+    color: white;
+}
+.suscripcion__formulario--contacto{
+    width: 23.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.formulario__email--contacto{
+    padding: 0.3rem 6rem 0.3rem 0.1rem;
+}
+.formulario__boton--contacto{
+    color: white;
+    background-color:orangered;
+    border: none;
+    padding: 0.4rem 1rem;
+}
+.container--contacto{
+    margin: 0 0 0 4rem;
+    display: flex;
+}
+.container__secciones--contacto{
+    display: flex;
+    flex-direction: column;
+}
+.botones--contacto{
+    padding: .5rem 29.5rem .5rem 0rem;
+}
+.enviar--contacto{
+    margin: 0 0 1rem 0;
+    padding:.5rem 0;
+    width: 39rem;
+    text-align:center;
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+.aside--contacto{
+    width: 30rem;
+    margin: 0 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.aside__objetivo--contacto{
+    margin: 1rem 0 0 2rem;
+    padding: 1rem;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    height: 12rem;
+    width: 25rem;
+}
+.imagen__lugar--contacto{
+    margin: .5rem 0 0 2rem;
+    width: 27rem;
+    height: 12.1rem;
+}
+.copyright--contacto{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.copyright__titulo--contacto{
+    color: white;
+}
